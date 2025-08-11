@@ -6,6 +6,12 @@ Setting up [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](http
 
 > ⭐ If you find this project useful, consider starring [the original repo](https://github.com/ironlungx/nvim-pio) to help it gain visibility! A start for me would also be appreciated (˶ᵔ ᵕ ᵔ˶)
 
+# Features
+
+- [Clangd LSP](https://clangd.llvm.org/) support.
+- Included Makefile for common actions.
+- Fancy wizard for automatic project creation.
+
 # How to use
 
 ### 1. Clone the repo
