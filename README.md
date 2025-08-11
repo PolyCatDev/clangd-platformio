@@ -34,11 +34,11 @@ make updatedb
 
 If you want a fancy wizard you can run this.
 ```sh
-curl -sSL https://raw.githubusercontent.com/PolyCatDev/clangd-platformio/refs/heads/main/wizard.sh | bash
+/bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/PolyCatDev/clangd-platformio/refs/heads/main/wizard.sh)"
 ```
 
-
 Or adding this function to your `.bashrc` will give you the same result.
+
 ```bash
 mkpio() {
   read -p "Project Name: " pioProjectName
