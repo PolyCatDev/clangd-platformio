@@ -27,6 +27,6 @@ cd <project-name>
 Every time you modify project libraries or config:
 
 ```sh
-pio init --ide vim && pio run -t compiledb
+make updatedb
 ```
 
