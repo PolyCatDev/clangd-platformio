@@ -1,6 +1,6 @@
 # Overview
 
-A template for automatically setting up a PlatformIO Arduino development environment.
+A template for automatically setting up a [PlatformIO](https://platformio.org/) + [Arduino](https://www.arduino.cc/) development environment.
 
 Setting up [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](https://platformio.org/) can be very finicky, this repo also tries to automate that.
 
