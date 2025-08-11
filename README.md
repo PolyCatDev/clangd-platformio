@@ -10,7 +10,7 @@ Setting up [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](http
 
 - [Clangd LSP](https://clangd.llvm.org/) support.
 - Included Makefile for common actions.
-- Fancy wizard for automatic project creation.
+- [Fancy wizard](https://github.com/PolyCatDev/clangd-platformio/tree/main?tab=readme-ov-file#fancy-wizard) for automatic project creation.
 
 # How to use
 
@@ -38,7 +38,7 @@ Every time you modify project libraries or config:
 make updatedb
 ```
 
-# Extras
+# Fancy Wizard
 
 If you want a fancy wizard you can run this.
 ```sh
