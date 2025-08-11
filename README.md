@@ -9,7 +9,7 @@ Since getting the [clangd LSP](https://clangd.llvm.org/) to work with [PlatformI
 ### 1. Clone the repo
 
 ```sh
-git clone https://github.com/ironlungx/nvim-pio <project-name>
+git clone https://github.com/PolyCatDev/clangd-platformio <project-name>
 cd <project-name>
 ```
 
