@@ -6,6 +6,13 @@ Since getting the [clangd LSP](https://clangd.llvm.org/) to work with [PlatformI
 
 # How to use
 
+## Fancy Wizard
+```sh
+/bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/PolyCatDev/clangd-platformio/refs/heads/main/wizard.sh)"
+```
+
+## Manual
+
 ### 1. Clone the repo
 
 ```sh
@@ -32,12 +39,7 @@ make updatedb
 
 # Extras
 
-If you want a fancy wizard you can run this.
-```sh
-/bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/PolyCatDev/clangd-platformio/refs/heads/main/wizard.sh)"
-```
-
-Or adding this function to your `.bashrc` will give you the same result.
+If you want the fancy wizard locally you can add this function to your `.bashrc` to get the same result.
 
 ```bash
 mkpio() {
