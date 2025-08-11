@@ -2,7 +2,7 @@
 
 Since getting the [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](https://platformio.org/) can be very finicky, this repo tries to automate that.
 
-> ⭐ If you find this project useful, consider starring [the original repo](https://github.com/ironlungx/nvim-pio) to help it gain visibility!
+> ⭐ If you find this project useful, consider starring [the original repo](https://github.com/ironlungx/nvim-pio) to help it gain visibility! A start for me would also be appreciated (˶ᵔ ᵕ ᵔ˶)
 
 # How to use
 
