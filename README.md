@@ -46,6 +46,7 @@ mkpio() {
   cd $pioProjectName
 
   read -p "Board ID: " pioBoardID
+  chmod +x ./setup.sh
   ./setup.sh $pioBoardID
   cd ..
 }
