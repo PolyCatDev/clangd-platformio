@@ -19,6 +19,9 @@ cd <project-name>
 ./setup.sh <board-id>
 ```
 
+> [!NOTE] 
+> The setup script will delete the existing git repo. A new one shall be ceated if need be.
+
 ### 3. Keep It Up to Date
 
 Every time you modify project libraries or config:
