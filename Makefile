@@ -8,4 +8,4 @@ clean:
 	pio run --target clean
 
 updatedb:
-	pio init --ide vim && pio run -t compiledb
+	rm -f compile_commands.json compile_commands.json.bak && python conv.py
