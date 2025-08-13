@@ -10,9 +10,26 @@ Setting up [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](http
 
 - [Clangd LSP](https://clangd.llvm.org/) support.
 - Included Makefile for common actions.
-- [Fancy wizard](https://github.com/PolyCatDev/clangd-platformio/tree/main?tab=readme-ov-file#fancy-wizard) for automatic project creation.
+- Fancy wizard for automatic project creation.
 
 # How to use
+
+## Automatic
+
+### 1. Run the setup wizard
+
+```sh
+/bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/PolyCatDev/clangd-platformio/refs/heads/main/wizard.sh)"
+```
+### 2. Keep It Up to Date
+
+Every time you modify project libraries or config:
+
+```sh
+make updatedb
+```
+
+## Manual
 
 ### 1. Clone the repo
 
@@ -36,26 +53,4 @@ Every time you modify project libraries or config:
 
 ```sh
 make updatedb
-```
-
-# Fancy Wizard
-
-If you want a fancy wizard you can run this.
-```sh
-/bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/PolyCatDev/clangd-platformio/refs/heads/main/wizard.sh)"
-```
-
-Or adding this function to your `.bashrc` will give you the same result.
-
-```bash
-mkpio() {
-  read -p "Project Name: " pioProjectName
-  git clone https://github.com/PolyCatDev/clangd-platformio $pioProjectName
-  cd $pioProjectName
-
-  read -p "Board ID: " pioBoardID
-  chmod +x ./setup.sh
-  ./setup.sh $pioBoardID
-  cd ..
-}
 ```
