@@ -4,6 +4,8 @@ A template for automatically setting up a [PlatformIO](https://platformio.org/) 
 
 Setting up [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](https://platformio.org/) can be very finicky, this repo also tries to automate that.
 
+https://github.com/user-attachments/assets/bf7852f2-7bb0-4ac0-a666-3278cd960e0c
+
 > ⭐ If you find this project useful, consider starring [the original repo](https://github.com/ironlungx/nvim-pio) to help it gain visibility! A start for me would also be appreciated (˶ᵔ ᵕ ᵔ˶)
 
 # Features
