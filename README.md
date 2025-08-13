@@ -2,7 +2,7 @@
 
 A template for automatically setting up a [PlatformIO](https://platformio.org/) + [Arduino](https://www.arduino.cc/) development environment.
 
-Setting up [clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](https://platformio.org/) can be very finicky, this repo also tries to automate that.
+Setting up [Clangd LSP](https://clangd.llvm.org/) to work with [PlatformIO](https://platformio.org/) can be very finicky, this repo also tries to automate that.
 
 https://github.com/user-attachments/assets/bf7852f2-7bb0-4ac0-a666-3278cd960e0c
 
