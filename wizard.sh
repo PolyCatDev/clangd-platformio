@@ -5,6 +5,7 @@ git clone https://github.com/PolyCatDev/clangd-platformio $pioProjectName
 cd $pioProjectName
 
 read -p "Board ID: " pioBoardID
-chmod +x ./setup.sh
-./setup.sh $pioBoardID
+rm -rf .git wizard.sh
+pio init --ide vim --board $pioBoardID
+python3 conv.py
 cd ..

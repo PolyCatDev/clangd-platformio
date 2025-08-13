@@ -38,16 +38,25 @@ git clone https://github.com/PolyCatDev/clangd-platformio <project-name>
 cd <project-name>
 ```
 
-### 2. Run the setup script
+### 2. Remove git repo and wizard script
 
 ```sh
-./setup.sh <board-id>
+rm -rf .git wizard.sh
 ```
 
-> [!NOTE] 
-> The setup script will delete the existing git repo. A new one shall be ceated if need be.
+### 3. Initialize the project
 
-### 3. Keep It Up to Date
+```sh
+pio init --ide vim --board <board-id>
+```
+
+### 4. Run Python script to generate `compile_commands.json` 
+
+```sh
+python3 conv.py
+```
+
+### 5. Keep It Up to Date
 
 Every time you modify project libraries or config:
 
