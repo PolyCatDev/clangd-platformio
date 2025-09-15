@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 read -p "Project Name: " pioProjectName
 git clone https://github.com/PolyCatDev/clangd-platformio $pioProjectName
 cd $pioProjectName
